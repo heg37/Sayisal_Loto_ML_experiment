@@ -177,7 +177,7 @@ The reults of the our Neural Network
 This has calculated from (test accuracy)/(train accuracy)
 
 ![alt text](https://github.com/heg37/Sayisal_Loto_ML_experiment/blob/master/releation%20graph.png "testtrain% graph")</br>
-I saw in the results I find a inverse relation between train and test graphics
+In the results, I find a inverse relation between train and test graphics
 
 ## Conclusion
 We have tried to find a releation in lottery. I want to focus on 1st ball since best result. So, we can ask with this work if everythings happening randomy how can a Machine find %11 true results. 
