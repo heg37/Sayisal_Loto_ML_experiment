@@ -76,7 +76,7 @@ shuffle_buffer_size = 50
 train_dataset = train_dataset.shuffle(shuffle_buffer_size).batch(batch_size)
 test_dataset = test_dataset.batch(batch_size)
 
-# I define our outputs max number for NN output. !! Don't forget to change y1_train
+# I defined our max output number for NN output. !! Don't forget to change y1_train
 max1 = np.amax(y1_train)
 max1 = np.float64.astype(max1,int) + 1
 print("Maximum number in the array: {}".format(max1-1))
