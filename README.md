@@ -5,10 +5,10 @@
 **Project Publish Date:** November 2019</br>
 
 
-#### Table of Contents:  
+#### Headers:
 <!--ts-->
-[What is Sayısal Loto](#what-is-sayısal-loto)
-[About](#about-the-project) 
+[What is Sayısal Loto](#what-is-sayısal-loto)</br>
+[About](#about-the-project)</br>
 [Our Neural Network's summaries](our-neural-networks-summaries)</br>
 [Results](#results)</br>
 [Conclusion](#conclusion)</br>
