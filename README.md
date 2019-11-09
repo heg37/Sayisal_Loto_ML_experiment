@@ -9,6 +9,8 @@
 <!--ts-->
 [What is Sayısal Loto](#what-is-sayısal-loto)  
 [About](#about-the-project)  
+[Results](#results)
+[Our Neural Network's summaries](our-neural-networks-summaries)
 <a name="headers"/>
 <!--te-->
 
@@ -43,9 +45,141 @@ I tried 4 inputs and 6 outputs model but it does not worked efficiently so I fou
 
 **and we have a output as:**</br>["Number"]
 
+## Our Neural Network's results
+`````
+Model loto_model_num1.h5
+Model: "sequential_5"
+loto_model_.summary()
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_5 (Flatten)          (None, 4)                 0         
+_________________________________________________________________
+dense_10 (Dense)             (None, 128)               640       
+_________________________________________________________________
+dense_11 (Dense)             (None, 31)                3999      
+=================================================================
+Total params: 4,639
+Trainable params: 4,639
+Non-trainable params: 0
+_________________________________________________________________
+`````
+`````
+Model loto_model_num2.h5
+Model: "sequential_14"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_14 (Flatten)         (None, 4)                 0         
+_________________________________________________________________
+dense_43 (Dense)             (None, 64)                320       
+_________________________________________________________________
+dense_44 (Dense)             (None, 512)               33280     
+_________________________________________________________________
+dense_45 (Dense)             (None, 256)               131328    
+_________________________________________________________________
+dense_46 (Dense)             (None, 41)                10537     
+=================================================================
+Total params: 175,465
+Trainable params: 175,465
+Non-trainable params: 0
+_________________________________________________________________
+`````
+`````
+Model loto_model_num3.h5
+Model: "sequential_25"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_25 (Flatten)         (None, 4)                 0         
+_________________________________________________________________
+dense_81 (Dense)             (None, 64)                320       
+_________________________________________________________________
+dense_82 (Dense)             (None, 128)               8320      
+_________________________________________________________________
+dense_83 (Dense)             (None, 512)               66048     
+_________________________________________________________________
+dense_84 (Dense)             (None, 45)                23085     
+=================================================================
+Total params: 97,773
+Trainable params: 97,773
+Non-trainable params: 0
+_________________________________________________________________
+`````
+`````
+Model loto_model_num4.h5
+Model: "sequential_26"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_26 (Flatten)         (None, 4)                 0         
+_________________________________________________________________
+dense_85 (Dense)             (None, 64)                320       
+_________________________________________________________________
+dense_86 (Dense)             (None, 128)               8320      
+_________________________________________________________________
+dense_87 (Dense)             (None, 512)               66048     
+_________________________________________________________________
+dense_88 (Dense)             (None, 48)                24624     
+=================================================================
+Total params: 99,312
+Trainable params: 99,312
+Non-trainable params: 0
+_________________________________________________________________
+`````
+`````
+Model loto_model_num5.h5
+Model: "sequential_6"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_6 (Flatten)          (None, 4)                 0         
+_________________________________________________________________
+dense_24 (Dense)             (None, 64)                320       
+_________________________________________________________________
+dense_25 (Dense)             (None, 256)               16640     
+_________________________________________________________________
+dense_26 (Dense)             (None, 512)               131584    
+_________________________________________________________________
+dense_27 (Dense)             (None, 49)                25137     
+=================================================================
+Total params: 173,681
+Trainable params: 173,681
+Non-trainable params: 0
+_________________________________________________________________
+``````
+``````
+Model loto_model_num6.h5
+Model: "sequential_30"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_30 (Flatten)         (None, 4)                 0         
+_________________________________________________________________
+dense_101 (Dense)            (None, 64)                320       
+_________________________________________________________________
+dense_102 (Dense)            (None, 256)               16640     
+_________________________________________________________________
+dense_103 (Dense)            (None, 512)               131584    
+_________________________________________________________________
+dense_104 (Dense)            (None, 50)                25650     
+=================================================================
+Total params: 174,194
+Trainable params: 174,194
+Non-trainable params: 0
+_________________________________________________________________
+``````
 ## Results
-
 ![alt text](https://github.com/heg37/Sayisal_Loto_ML_experiment/blob/master/result_table.jpg "result table")</br>
 The reults of the our Neural Network
 
+![alt text](https://github.com/heg37/Sayisal_Loto_ML_experiment/blob/master/testtrain%20graph.png "testtrain% graph")</br>
+This has calculated from (test accuracy)/(train accuracy)
 
+![alt text](https://github.com/heg37/Sayisal_Loto_ML_experiment/blob/master/releation%20graph.png "testtrain% graph")</br>
+I saw in the results I find a inverse relation between train and test graphics
+
+## Conclusion
+We have tried to find a releation in lottery. I want to focus on 1st ball since best result. So, we can ask with this work if everythings happening randomy how can a Machine find %11 true results. 
+
+Maybe this work shows nothing truely but you can look this project as an experiment. Please feel free to comment about this work and try your new Neural Network, and enjoy.
