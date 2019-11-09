@@ -241,7 +241,7 @@ def test_array_creator_and_saver():
     ball6_test_array = np.transpose(np.array([ball6_test], dtype=float))
 
     np.savez(
-        'lotodatasetv3.npz', InputsTrain=x_train, InputsTest=x_test,
+        'lotodataset3.npz', InputsTrain=x_train, InputsTest=x_test,
         y1_train=ball1_train, y2_train=ball2_train, y3_train=ball3_train,
         y4_train=ball4_train, y5_train=ball5_train, y6_train=ball6_train,
         y1_test=ball1_test_array, y2_test=ball2_test_array, y3_test=ball3_test_array,
