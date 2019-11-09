@@ -7,10 +7,11 @@
 
 #### Table of Contents:  
 <!--ts-->
-[What is Sayısal Loto](#what-is-sayısal-loto)  
-[About](#about-the-project)  
-[Results](#results)
-[Our Neural Network's summaries](our-neural-networks-summaries)
+[What is Sayısal Loto](#what-is-sayısal-loto)
+[About](#about-the-project) 
+[Our Neural Network's summaries](our-neural-networks-summaries)</br>
+[Results](#results)</br>
+[Conclusion](#conclusion)</br>
 <a name="headers"/>
 <!--te-->
 
