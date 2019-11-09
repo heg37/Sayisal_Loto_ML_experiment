@@ -154,8 +154,3 @@ def seperated_array_for_train():
 
     return x_array, y_array
 
-def create_the_npz_file():
-    (x, y) = seperated_array_for_train()
-    np.savez('lotodataset.npz', Inputs=x, Outputs=y)
-    read = np.load('lotodataset.npz')
-
