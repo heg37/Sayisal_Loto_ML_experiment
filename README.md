@@ -43,3 +43,9 @@ I tried 4 inputs and 6 outputs model but it does not worked efficiently so I fou
 
 **and we have a output as:**</br>["Number"]
 
+## Results
+
+![alt text](https://github.com/heg37/Sayisal_Loto_ML_experiment/blob/master/result_table.jpg "result table")</br>
+The reults of the our Neural Network
+
+
